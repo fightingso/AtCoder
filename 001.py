@@ -1,5 +1,3 @@
-# coding UTF8
-
 apple = 5  # りんごの個数
 N = int(input())  # みかんの個数
 
