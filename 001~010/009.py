@@ -13,5 +13,5 @@ else:
                 sum += A[j]
         if sum == S:
             answer = 'Yes'
-            break
+        break
     print(answer)
