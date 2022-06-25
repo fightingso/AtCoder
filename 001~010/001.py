@@ -1,6 +1,11 @@
-apple = 5  # りんごの個数
-N = int(input())  # みかんの個数
+# りんごの個数
+apple = 5 
 
-total = apple + N  # 合計個数を計算
+# みかんの個数を入力
+N = int(input())
 
-print(total)  # 出力
+# 合計個数を計算
+total = apple + N 
+
+# 出力
+print(total) 

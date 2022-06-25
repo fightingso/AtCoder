@@ -1,7 +1,10 @@
-N = int(input())  # 整数の個数を入力
+#入力
+N = int(input())
 A = list(map(int, input().split()))
 
-if len(A) != N:  # Nの値と入力された整数の個数が違った時
+# Nの値と入力された整数の個数が違った時エラー
+if len(A) != N: 
     print("error")
 else:
+    #出力
     print(sum(A))
