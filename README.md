@@ -45,6 +45,28 @@ S00000のAtCoder管理用リポジトリ
         acc add
         ```
 
+    - テンプレート設定
+        - 以下のコマンドを実行
+            ```
+            cd `acc config-dir`
+            mkdir py
+            nano template.json
+            ```
+        - template.jsonの中身は以下のように記述
+            ```
+            {
+                "task":{
+                    "program": ["main.py"],
+                    "submit": "main.py"
+                }
+            }
+            ```
+        - 以下のコマンドを実行
+            ```
+            acc add --template py
+            acc config default-template py
+            ```
+
     - 解答テスト
         ```
         oj t
