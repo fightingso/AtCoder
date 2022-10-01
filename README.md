@@ -20,6 +20,37 @@ S00000のAtCoder管理用リポジトリ
 
     - ターミナル上でコンテナに入る
          ```
-         docker-compose exec app bash
+         docker-compose exec dev bash
          ```
 
+- ### AtCoder CLI関連
+    - ログイン
+        ```
+        acc login
+        oj login https://beta.atcoder.jp/
+        ```
+
+    - コンテスト情報の確認
+        ```
+        acc contest [コンテスト名]
+        ```
+
+    - コンテスト用ディレクトリの作成
+        ```
+        acc new [コンテスト名]
+        ```
+
+    - 問題用ディレクトリの追加
+        ```
+        acc add
+        ```
+
+    - 解答テスト
+        ```
+        oj t
+        ```
+
+    - 問題提出
+        ```
+        acc s
+        ```
