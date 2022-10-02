@@ -69,7 +69,7 @@ S00000のAtCoder管理用リポジトリ
 
     - 解答テスト
         ```
-        oj t
+        oj t -c " python3 ./main.py" -d ./test/
         ```
 
     - 問題提出
