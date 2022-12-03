@@ -9,7 +9,7 @@ RUN apt-get update && \
 RUN chsh -s /bin/zsh
 
 RUN apt-get update && \
-    apt-get install -y python3.8 python3-pip pypy3 nodejs npm
+    apt-get install -y python3.8 python3-pip pypy3 nodejs npm g++
 
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3.8 30 && \
     update-alternatives --install /usr/bin/pip pip /usr/bin/pip3 30 && \
