@@ -152,7 +152,12 @@
       "id": "APG4b_n",
       "label": "N",
       "title": "1.13.配列",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_n"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_n",
+      "directory": {
+        "path": "n",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "APG4b_o",
