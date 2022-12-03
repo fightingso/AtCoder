@@ -251,19 +251,34 @@
       "id": "APG4b_w",
       "label": "W",
       "title": "2.06.計算量",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_w"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_w",
+      "directory": {
+        "path": "w",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "APG4b_x",
       "label": "X",
       "title": "3.00.第3章について",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_x"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_x",
+      "directory": {
+        "path": "x",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "APG4b_y",
       "label": "Y",
       "title": "3.01.数値型",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_y"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_y",
+      "directory": {
+        "path": "y",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "APG4b_z",
