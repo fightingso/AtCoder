@@ -1,59 +1,45 @@
-## **概要**
-S00000のAtCoder管理用リポジトリ
+## **Introduction**
+This repository maintains my solutions on AtCoder :sunglasses:
 
-## **備忘録がてら使い方**
+## **Setup**
 
-- ### Docker関連
-    - コンテナの作成(初回)
-        ```
+- ### Docker
+    - Build the image
+        ```bash
         docker-compose up -d
         ```
 
-    - コンテナの起動と停止(2回目以降)
-        ```
-        # 起動
-        docker start atcoder_dev_1
-
-        # 停止
-        docker stop atcoder_dev_1
-        ```
-
-    - ターミナル上でコンテナに入る
-         ```
-         docker-compose exec dev bash
-         ```
-
-- ### AtCoder CLI関連
-    - ログイン
-        ```
+- ### AtCoder CLI
+    - Login
+        ```bash
         acc login
         oj login https://beta.atcoder.jp/
         ```
 
-    - コンテスト情報の確認
-        ```
-        acc contest [コンテスト名]
-        ```
-
-    - コンテスト用ディレクトリの作成
-        ```
-        acc new [コンテスト名]
+    - #### Confirm contest information
+        ```bash
+        acc contest {contest_id}
         ```
 
-    - 問題用ディレクトリの追加
+    - #### Create a new directory for the contest
+        ```bash
+        acc new {contest_id}
         ```
+
+    - #### Create a new directory for the problem
+        ```bash
         acc add
         ```
 
-    - テンプレート設定
-        - 以下のコマンドを実行
-            ```
-            cd `acc config-dir`
-            mkdir py
-            nano template.json
-            ```
-        - template.jsonの中身は以下のように記述
-            ```
+    - #### Set up the template
+        ```bash
+        cd `acc config-dir`
+        mkdir py
+        nano template.json
+        ```
+
+        - ##### template.json
+            ```json
             {
                 "task":{
                     "program": ["main.py"],
@@ -61,18 +47,18 @@ S00000のAtCoder管理用リポジトリ
                 }
             }
             ```
-        - 以下のコマンドを実行
-            ```
+        - ##### Execute the following command to set up the template
+            ```bash
             acc add --template py
             acc config default-template py
             ```
 
-    - 解答テスト
-        ```
+    - #### Test the code
+        ```bash
         oj t -c " python3 ./main.py" -d ./test/
         ```
 
-    - 問題提出
-        ```
+    - #### Submit the code
+        ```bash
         acc s
         ```
