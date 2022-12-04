@@ -493,7 +493,12 @@
       "id": "APG4b_cn",
       "label": "EX9",
       "title": "1.09",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_cn"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_cn",
+      "directory": {
+        "path": "ex9",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "APG4b_cm",
