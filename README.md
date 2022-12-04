@@ -55,7 +55,7 @@ This repository maintains my solutions on AtCoder :sunglasses:
 
     - #### Test the code
         ```bash
-        oj t -c " python3 ./main.py" -d ./test/
+        oj t -c " ./main" -d ./test/
         ```
 
     - #### Submit the code
