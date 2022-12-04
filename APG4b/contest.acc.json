@@ -460,19 +460,34 @@
       "id": "APG4b_cq",
       "label": "EX6",
       "title": "1.06",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_cq"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_cq",
+      "directory": {
+        "path": "ex6",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "APG4b_cp",
       "label": "EX7",
       "title": "1.07",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_cp"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_cp",
+      "directory": {
+        "path": "ex7",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "APG4b_co",
       "label": "EX8",
       "title": "1.08",
-      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_co"
+      "url": "https://atcoder.jp/contests/APG4b/tasks/APG4b_co",
+      "directory": {
+        "path": "ex8",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "APG4b_cn",
