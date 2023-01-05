@@ -40,39 +40,18 @@ using vvvb = vector<vvb>;
 
 #endif
 
+ll ans;
+string S;
+bool cnt = false;
+
 int main()
 {
-    ll S;
     cin >> S;
-    vi s;
-    while (S > 0)
-    {
-        s.push_back(S % 10);
-        S /= 10;
+    ans = S.size();
+    rep (i, S.size()) {
+        if (S[i] == '0' && !cnt) {cnt = !cnt; continue;}
+        if (S[i] == '0' && cnt) {ans--; cnt = !cnt;}
+        else cnt = false;
     }
-    reverse(all(s));
-
-    int i = 0, cnt = 0;
-    while (i < s.size())
-    {
-        if (s[i] != 0)
-        {
-            cnt++;
-            i++;
-        }
-        else
-        {
-            if (s[i + 1] == 0)
-            {
-                cnt++;
-                i += 2;
-            }
-            else
-            {
-                cnt ++;
-                i += 1;
-            }
-        }
-    }
-    print(cnt);
+    print(ans);
 }
