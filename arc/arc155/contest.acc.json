@@ -1,0 +1,50 @@
+{
+  "contest": {
+    "id": "arc155",
+    "title": "AtCoder Regular Contest 155",
+    "url": "https://atcoder.jp/contests/arc155"
+  },
+  "tasks": [
+    {
+      "id": "arc155_a",
+      "label": "A",
+      "title": "ST and TS  Palindrome",
+      "url": "https://atcoder.jp/contests/arc155/tasks/arc155_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests",
+        "submit": "main.cpp"
+      }
+    },
+    {
+      "id": "arc155_b",
+      "label": "B",
+      "title": "Abs Abs Function",
+      "url": "https://atcoder.jp/contests/arc155/tasks/arc155_b"
+    },
+    {
+      "id": "arc155_c",
+      "label": "C",
+      "title": "Even Sum Triplet",
+      "url": "https://atcoder.jp/contests/arc155/tasks/arc155_c"
+    },
+    {
+      "id": "arc155_d",
+      "label": "D",
+      "title": "Avoid Coprime Game",
+      "url": "https://atcoder.jp/contests/arc155/tasks/arc155_d"
+    },
+    {
+      "id": "arc155_e",
+      "label": "E",
+      "title": "Split and Square",
+      "url": "https://atcoder.jp/contests/arc155/tasks/arc155_e"
+    },
+    {
+      "id": "arc155_f",
+      "label": "F",
+      "title": "Directable as Desired",
+      "url": "https://atcoder.jp/contests/arc155/tasks/arc155_f"
+    }
+  ]
+}
