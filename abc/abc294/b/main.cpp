@@ -10,12 +10,10 @@ int main() {
   cin >> h >> w;
   vector<vector<int>> a(h, vector<int>(w));
   rep(i, h) rep(j, w) cin >> a[i][j];
-  vector<int> row(h), col(w);
-  rep(i, h) rep(j, w) row[i] += a[i][j];
-  rep(i, w) rep(j, h) col[i] += a[j][i];
   rep(i, h) {
     rep(j, w) {
-      cout << row[i] + col[j] - a[i][j] << " ";
+      if (a[i][j] == 0) cout << ".";
+      else cout << (char)('A' + a[i][j] - 1);
     }
     cout << endl;
   }
